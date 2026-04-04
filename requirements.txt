@@ -1,0 +1,27 @@
+# --- Core ML Frameworks ---
+# (Install torch nightly manually as discussed)
+
+# --- HuggingFace Ecosystem ---
+transformers==4.40.2
+accelerate==0.30.1
+huggingface_hub==0.23.2
+tokenizers>=0.19.1,<0.20.0
+safetensors==0.4.3
+
+# --- API & Server ---
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+pydantic==2.7.1
+sse-starlette==2.1.0
+
+# --- Benchmarking & Data ---
+locust==2.29.0
+aiohttp==3.9.5
+pandas==2.2.2
+matplotlib==3.9.0
+numpy==1.26.4
+
+# --- Utilities ---
+nest_asyncio==1.6.0
+psutil==5.9.8
+tqdm==4.66.4

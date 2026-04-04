@@ -1,0 +1,31 @@
+# --- Python & Environment ---
+venv/
+llm-inference-env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Large ML Assets (Crucial) ---
+models/
+*.bin
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.gguf
+
+# --- Project Specifics ---
+results/*.csv
+results/*.png
+results/*.json
+!results/.gitkeep
+
+# --- System & IDE ---
+.vscode/
+.idea/
+.DS_Store
+*.swp
+.env
