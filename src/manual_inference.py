@@ -9,7 +9,7 @@ one step at a time. After this file, you will have seen and touched:
 """
 
 '''
-    understanding the kv cache, now you are manually catching the past_key_values output
+    understanding the kv cache, now we are manually caching the past_key_values output
     feeding it back in, 
     engineering problem : we are watching the cache size (mb) to grow. This proves that 
     a longer conversation means it takes more memory hence increasing the load on the gpu
