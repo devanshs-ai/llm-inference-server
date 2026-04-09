@@ -9,8 +9,8 @@ Key architectural note included in README:
   The measurable win here is TTFT: requests get their first token immediately
   rather than waiting for the entire queue to drain.
 
-  our result shows that at concurrency = 8 the naive server is more than double the throughput 
-  observed at our continuous batching server, this is because, higginface's model.generate()
+  my result shows that at concurrency = 8 the naive server is more than double the throughput 
+  observed at my continuous batching server, this is because, higginface's model.generate()
   sends all the 8 requests batched as one at once, for example
   its  like a big bus, everyone gets on and goes to the gpu at the same time and gets off at the same time
   its fast since it makes only one trip
